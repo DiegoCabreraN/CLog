@@ -12,7 +12,14 @@ CLog is a simple and customizable logger for your C programs. It contains 5 diff
 
 ## Options
 
-CLog is simple and you can customize it by changing the variable logConfig. The configurations CLog allows are:
+CLog is simple and you can customize it by changing logConfig. Ex:
+
+```c
+// Usage
+logConfig[DEBUG_COLOR] = 4;
+```
+
+The configurations CLog allows are:
 
 - `DEBUG_COLOR`: Color of the Debug Tag
 - `INFO_COLOR`: Color of the Info Tag
